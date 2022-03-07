@@ -1,0 +1,281 @@
+@media screen and (max-width: 1089px) {
+  .education .year-2021 .block::after {
+    height: 248px;
+  }
+}
+@media screen and (max-width: 1059px) {
+  .education .year-2021 .block::after {
+    height: 272px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .education .year-2021 .block::after {
+    height: 294px;
+  }
+}
+@media screen and (max-width: 898px) {
+  .education .year-2020 .block::after {
+    height: 480px;
+  }
+  .education .year-2021 .block::after {
+    height: 340px;
+  }
+  .experience .year-2020 .block::after {
+    height: 175px;
+  }
+  .experience .year-2021 .block::after {
+    height: 46px;
+  }
+}
+@media screen and (max-width: 869px) {
+  .education .year-2020 .block::after {
+    height: 530px;
+  }
+  .education .year-2021 .block::after {
+    height: 434px;
+  }
+}
+@media screen and (max-width: 838px) {
+  .education .year-2019 .block::after {
+    height: 175px;
+  }
+  .education .year-2020 .block::after {
+    height: 620px;
+  }
+  .education .year-2021 .block::after {
+    height: 456px;
+  }
+}
+@media screen and (max-width: 808px) {
+  .education .year-2020 .block::after {
+    height: 670px;
+  }
+  .experience .year-2021 .block::after {
+    height: 70px;
+  }
+}
+@media screen and (max-width: 778px) {
+  .experience .year-2020 .block::after {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 955px;
+  }
+  .header__body,
+  .hi-left,
+  .skills,
+  .also,
+  .eduexp,
+  .contact {
+    padding-left: 16px !important;
+  }
+  footer {
+    padding-right: 16px !important;
+  }
+  .header__body {
+    padding: 30px 0;
+  }
+  .header-list {
+    width: 530px;
+    margin-right: 60px;
+  }
+  .media-black-block {
+    display: block;
+    height: 100px;
+  }
+
+  /* hi */
+  .hi {
+    padding: 0 0 40px 0;
+  }
+  .hi-headers {
+    width: 515px;
+  }
+  .hi-headers h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .hi-headers h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+  .hi-links {
+    width: 450px;
+  }
+  .hi-link {
+    width: 210px;
+    height: 50px;
+  }
+
+  /* about */
+  .about {
+    max-width: 755px;
+  }
+  .about h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .about p {
+    font-size: 25px;
+  }
+
+  /* skills */
+  .skills {
+    padding: 80px 0 50px;
+  }
+  .skills h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .ranges .left,
+  .ranges .right {
+    width: 48%;
+    margin-right: 35px;
+  }
+
+  /* also */
+  .also {
+    padding-bottom: 30px;
+  }
+  .also h2 {
+    margin-bottom: 50px;
+  }
+  .also-item {
+    width: 45%;
+    margin-bottom: 50px;
+  }
+  .also-item:nth-child(even) {
+    margin-right: 16px;
+  }
+
+  /* EduExp */
+  .year {
+    font-size: 30px;
+  }
+  .experience {
+    margin-right: 20px;
+  }
+
+  .black-block {
+    height: 100px;
+  }
+
+  /* portfolio */
+  .slider .slick-dots {
+    margin-bottom: 100px;
+  }
+
+  /* contact */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 30px;
+  }
+
+  .contact {
+    padding: 50px 0;
+  }
+
+  .contact h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+  }
+
+  .contact h3 {
+    margin-bottom: 50px;
+  }
+
+  .contact-items {
+    margin-right: 120px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .emails input,
+  textarea {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .textarea {
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  form button {
+    width: 74%;
+    align-self: center;
+  }
+
+  textarea {
+    min-height: 180px;
+  }
+
+  #status {
+    font-size: 20px;
+    right: 0;
+    padding: 10px 20px;
+    top: -50px;
+  }
+
+  .high {
+    height: 160px;
+  }
+
+  /* footer */
+  footer {
+    padding: 120px 0 50px;
+    position: relative;
+    text-align: center;
+  }
+
+  .arrow {
+    top: -15%;
+  }
+
+  footer p:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .social-links,
+  footer p {
+    margin-left: 16px;
+  }
+
+  /* popup */
+  .popup .popup__content {
+    padding: 100px 80px;
+    max-width: 960px;
+  }
+
+  .popup__close span {
+    width: 10px;
+    height: 75px;
+    top: 20px;
+    right: 60px;
+  }
+
+  .popup__close span::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 75px;
+  }
+
+  .popup__content h3 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .popup__content p {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,314 @@
+@media screen and (max-width: 768px) {
+  .education .year-2019 .block::after {
+    height: 125px;
+  }
+  .education .year-2020 .block::after {
+    height: 440px;
+  }
+  .education .year-2021 .block::after {
+    height: 288px;
+  }
+  .experience .year-2020 .block::after {
+    height: 160px;
+  }
+  .experience .year-2021 .block::after {
+    height: 36px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .education .year-2019 .block::after {
+    height: 160px;
+  }
+  .education .year-2020 .block::after {
+    height: 470px;
+  }
+}
+@media screen and (max-width: 662px) {
+  .education .year-2020 .block::after {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 623px) {
+  .education .year-2020 .block::after {
+    height: 530px;
+  }
+  .education .year-2021 .block::after {
+    height: 318px;
+  }
+}
+@media screen and (max-width: 603px) {
+  .education .year-2021 .block::after {
+    height: 348px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__body,
+  .hi-left,
+  .skills,
+  .also,
+  .eduexp,
+  .contact {
+    padding-left: 24px !important;
+  }
+
+  footer {
+    padding-right: 24px !important;
+  }
+  body.lock {
+    overflow: hidden;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .header-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    opacity: 0.9;
+  }
+  .header-wrapper.active {
+    opacity: 1;
+  }
+  .header-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+  }
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 33px;
+    margin-right: 16px;
+    z-index: 3;
+  }
+  .header__burger span {
+    background-color: #20c20e;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 15px;
+    transition: all 0.5s ease 0s;
+  }
+  .header__burger.active span {
+    transform: scale(0);
+  }
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    background-color: #20c20e;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 15px;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 15px;
+  }
+  .header-right {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    transition: all 0.5s ease 0s;
+    overflow: auto;
+  }
+  .header-right.active {
+    top: 0;
+  }
+  .header-left {
+    font-size: 30px;
+    position: relative;
+    z-index: 3;
+  }
+  .header-list {
+    position: fixed;
+    top: -200%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    transition: all 0.5s ease 0s;
+    overflow: auto;
+  }
+  .header-list.active {
+    top: 0;
+  }
+  .header-list__item {
+    margin-bottom: 30px;
+  }
+  .header-link {
+    font-size: 50px;
+  }
+  .media-black-block {
+    height: 80px;
+  }
+  .header-black-block {
+    margin-top: 95px;
+  }
+
+  /* hi */
+  .hi-right {
+    display: none;
+  }
+  .hi {
+    padding: 40px 0 0 0;
+  }
+  .hi-headers h2 {
+    margin-bottom: 70px;
+  }
+
+  /* about */
+  .about {
+    max-width: 620px;
+    padding: 70px 0;
+  }
+
+  /* skills */
+  .ranges {
+    flex-direction: column;
+  }
+  .ranges .left,
+  .ranges .right {
+    width: 80%;
+    margin: 0;
+  }
+  .ranges .left {
+    margin-bottom: 50px;
+  }
+
+  /* also */
+  .also {
+    padding-bottom: 50px;
+  }
+  .also-item p {
+    padding-bottom: 40px;
+  }
+  .also-heading h3 {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+
+  /* EduExp */
+  .eduexp {
+    padding: 70px 0 50px;
+    flex-direction: column;
+  }
+  .education,
+  .experience {
+    width: 80%;
+  }
+  .education {
+    margin-bottom: 10px;
+  }
+  .eduexp h2 {
+    font-size: 40px;
+  }
+  .education-item__li,
+  .experience-item__li {
+    font-size: 26px;
+  }
+
+  /* portfolio */
+  .black-block {
+    height: 80px;
+  }
+  .slider .slick-dots {
+    margin-bottom: 80px;
+  }
+  .slider .slick-dots {
+    justify-content: space-evenly;
+  }
+  .slider .slick-dots li button {
+    margin-right: 0;
+  }
+
+  /* contact */
+  .contact {
+    padding: 70px 0;
+  }
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-items {
+    margin-right: 0;
+  }
+  .contact-list {
+    display: flex;
+  }
+  .contact-list__item:first-child {
+    margin-right: 50px;
+  }
+  .contact-list li {
+    font-size: 36px;
+    color: #fff;
+  }
+  .contact-list li::before {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+  }
+  .contact-list a {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  form {
+    width: 80%;
+    margin-right: 24px;
+    align-self: center;
+  }
+  form button {
+    width: 65%;
+  }
+  .high {
+    height: 140px;
+  }
+  #status {
+    position: fixed;
+    top: 150px;
+  }
+
+  /* footer */
+  footer {
+    padding: 110px 0 60px;
+  }
+  footer p:not(:last-child) {
+    margin-bottom: 70px;
+  }
+  .social-links,
+  footer p {
+    margin-left: 24px;
+  }
+  .social-link__item {
+    width: 44px;
+    margin-right: 60px;
+  }
+  .social-link__item:first-child {
+    width: 22px;
+  }
+}
