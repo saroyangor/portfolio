@@ -266,6 +266,12 @@ footer {
     width: 50%;
 }
 
+.ranges .skill-item .skill-item__progress.precent-40 {width: 40%;}
+
+.ranges .skill-item .skill-item__progress.precent-30 {
+	width: 30%;
+}
+
 /* also */
 
 .also {
