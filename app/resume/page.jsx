@@ -34,24 +34,12 @@ const about = {
       fieldValue: "(+374) 94 963676",
     },
     {
-      fieldName: "Experience",
-      fieldValue: "5+ Years",
-    },
-    {
       fieldName: "Telegram",
-      fieldValue: "DocThor69",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Armenian",
+      fieldValue: "GorSaroyan",
     },
     {
       fieldName: "Email",
       fieldValue: "saroyan98@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
     },
     {
       fieldName: "Languages",
