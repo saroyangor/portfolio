@@ -30,6 +30,10 @@ const about = {
       fieldValue: "Gor Saroyan",
     },
     {
+      fieldName: "Experience",
+      fieldValue: "5+ Years",
+    },
+    {
       fieldName: "Phone",
       fieldValue: "(+374) 94 963676",
     },
