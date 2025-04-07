@@ -3,20 +3,19 @@
 import {
   FaJs,
   FaReact,
-  FaFigma,
-  FaNodeJs,
-  FaPython, FaVuejs,
+  FaJava,
 } from 'react-icons/fa'
 
 import {
-  SiTailwindcss,
   SiNextdotjs,
-  SiDjango,
-  SiFastapi,
   SiTypescript,
-  SiNuxtdotjs,
-  SiExpress,
-  SiSqlite,
+  SiSpring,
+  SiPostgresql,
+  SiMysql,
+  SiRedis,
+  SiApachekafka,
+  SiHibernate,
+  SiGo,
 } from 'react-icons/si'
 
 // about data
@@ -101,7 +100,7 @@ const experience = {
 const skills = {
   title: "My skills",
   description:
-    "I honed my web development skills, focusing on JavaScript and Python frameworks.",
+    "I honed my web development skills, focusing on JavaScript and Java frameworks.",
   skillList: [
     {
       icon: <FaJs />,
@@ -120,36 +119,36 @@ const skills = {
       name: "next.js",
     },
     {
-      icon: <FaVuejs />,
-      name: "vue.js",
+      icon: <FaJava />,
+      name: "Java",
     },
     {
-      icon: <SiNuxtdotjs />,
-      name: "nuxt.js",
+      icon: <SiSpring />,
+      name: "Spring Framework",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiHibernate />,
+      name: "Hibernate",
     },
     {
-      icon: <SiExpress />,
-      name: "express.js",
+      icon: <SiPostgresql />,
+      name: "PostgreSQL",
     },
     {
-      icon: <FaPython />,
-      name: "python",
+      icon: <SiMysql />,
+      name: "MySQL",
     },
     {
-      icon: <SiDjango />,
-      name: "django",
+      icon: <SiRedis />,
+      name: "Redis",
     },
     {
-      icon: <SiFastapi />,
-      name: "fastapi",
+      icon: <SiApachekafka />,
+      name: "Kafka",
     },
     {
-      icon: <SiSqlite />,
-      name: "databases",
+      icon: <SiGo />,
+      name: "Golang",
     },
   ],
 };
@@ -165,7 +164,7 @@ import {
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
-import {DatabaseIcon} from 'lucide-react'
+import { DatabaseIcon, SquareLibraryIcon } from 'lucide-react'
 
 const Resume = () => {
   return (
